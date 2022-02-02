@@ -17,8 +17,8 @@ i will fine nearest driver using dikshtra algorithm(i am not calling dikshtra al
 
 
 ##### nearest driver accepted ride 
-out of four nearest driver some driver may cancel,but any one may accept th ride 
+out of four nearest driver some driver may cancel,but any one may accept the ride 
 for that first i pushed all four near driver in queue,then i generate a random value form 0 to 1 if  random value 
 is zero means driver canceled ride and i will pop front of quue which means there are only 3 driver left for user .
-if random value is 1 means driver accepted the ride ,then i will calculate time according to distance from user to driver.
+if random value is 1 means driver accepted the ride ,then i will calculate time according to distance from user to driver to reach.
 <img src="accept.png" width="100%" align="top-left" alt="" title="RNN" />
