@@ -7,11 +7,10 @@ if any user enter source as (i) and destination as(j) ,it will pic value of matr
 
 #### here user will enter their source and destination address  
 now we have source to destination distance,we have to calculate sortest path from source to destination for that i hvae used dikhstra 
-algorithm.after applying dikshtra algorithm we will have sortest distance in km or miter according to distance we will calculate amount to pay for this ride
-and how much time will take to reach source to destination.i have generated a random value 'trafic' if there is value in trafic means thre is trafic in path
-so will add that trafic in distance(to reach source to destination).then new time will genereted (to reach destination).
+algorithm.after applying dikshtra algorithm we will have sortest distance in km or miter,i have generated a random value 'trafic' if there is value in trafic means there is trafic in path so will add that trafic in distance(to reach source to destination) according to distance we will calculate amount to pay for this ride
+and how much time will take to reach source to destination.
 
-i will fine nearest driver using dikshtra algorithm(i am not calling dikshtra algorithm again when i was nearest path from source to destination same time i will pck four nodes which is near to source)which is four near drivers
+i will find nearest driver using dikshtra algorithm(i am not calling dikshtra algorithm again when i was calculating nearest path from source to destination, same time i will pck four nodes which is near to source)which is four near drivers
 
 <img src="input.png" width="100%" align="top-left" alt="" title="RNN" />
 
