@@ -1,8 +1,8 @@
 # Ride-Hailing-Demo-App
 
 #### This is a map 
-map is a matrix each cell has a value which represent weight of that cell,
-if any user enter source and destination ,there will be some weight of source and destination ,according to that value i will calculate distance between source and 
+map is a graph adjacency matrix  each cell(index i,j) has a value which represent weight of that cell,
+if any user enter source as (i,j) and destination(i,j) ,it will pic value of source(i,j) and distination(i,h),there will be some weight of source and destination ,according to that value i will calculate distance between source and 
 destination
 <img src="map.png" width="100%" align="top-left" alt="" title="RNN" />
 
