@@ -8,15 +8,15 @@ graph is  symmetric about diagnol (because distance between source to destinatio
 <img src="images/Map.png" width="100%" align="top-left" alt="" title="RNN" />
 #### here user will enter their source and destination address 
 ##### In some are Ride-Hailing is not availble 
-Service is not availble in whole earth. if user chose source or destination out of service range where Service is not availble then it wil show warning.
+Service is not availble on whole earth. if user chose source or destination out of service range where Service is not availble then it wil show warning.
 user can select only those area which are in given map.in given pic user entered source address out of range .
 <img src="images/DestinationInvalid.png" width="100%" align="top-left" alt="" title="RNN" />
 
 Here user intered destination out of range where service is not availble so it showing warning that destination address is not valid
-<img src="images/invalid2.png" width="100%" align="top-left" alt="" title="RNN" />
+<img src="images/Sourceinvalid.png" width="100%" align="top-left" alt="" title="RNN" />
 
 User Has entered source and destination within range where service is availble so driver will be connected to user .
- <img src="images/valid.png" width="100%" align="top-left" alt="" title="RNN" />
+ <img src="images/success.png" width="100%" align="top-left" alt="" title="RNN" />
  
 now we have source to destination distance,we have to calculate sortest path from source to destination for that i hvae used dikhstra 
 algorithm.after applying dikshtra algorithm we will have sortest distance in km or miter,i have generated a random value 'trafic' if there is value in trafic means there is trafic in path so will add that trafic in distance(to reach source to destination) according to distance we will calculate amount to pay for this ride
