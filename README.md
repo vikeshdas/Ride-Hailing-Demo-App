@@ -7,7 +7,7 @@ all dignol value is zeor because in dignol allways source=destination(i=j),so if
 graph is  symmetric about diagnol (because distance between source to destination) allways will be equal to (distance between destination to source). 
 <img src="images/Map.png" width="100%" align="top-left" alt="" title="RNN" />
 #### here user will enter their source and destination address 
-##### In some are Ride-Hailing is not availble 
+##### In some area Ride-Hailing is not availble 
 Service is not availble on whole earth. if user chose source or destination out of service range where Service is not availble then it wil show warning.
 user can select only those area which are in given map.in given pic user entered source address out of range .
 <img src="images/DestinationInvalid.png" width="100%" align="top-left" alt="" title="RNN" />
