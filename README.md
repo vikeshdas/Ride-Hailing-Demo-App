@@ -11,19 +11,19 @@ graph is  symmetric about diagnol (because distance between source to destinatio
 ##### In some area Ride-Hailing is not availble 
 Service is not availble on whole earth. if user chose source or destination out of service range where Service is not availble then it wil show warning.
 user can select only those area which are in given map.in given pic user entered source address out of range .
-<img src="images/DestinationInvalid.png" width="100%" align="top-left" alt="" title="RNN" />
+<img src="images/desvalidation.png" width="100%" align="top-left" alt="" title="RNN" />
 
 Here user intered destination out of range where service is not availble so it showing warning that destination address is not valid
-<img src="images/Sourceinvalid.png" width="100%" align="top-left" alt="" title="RNN" />
+<img src="images/srcvalidation.png" width="100%" align="top-left" alt="" title="RNN" />
 
-User Has entered source and destination within range where service is availble so driver will be connected to user .
- <img src="images/success.png" width="100%" align="top-left" alt="" title="RNN" />
- 
-now we have source to destination distance,we have to calculate sortest path from source to destination for that i hvae used dikhstra 
-algorithm.after applying dikshtra algorithm we will have sortest distance in km or miter,i have generated a random value 'trafic' if there is value in trafic means there is trafic in path so will add that trafic in distance(to reach source to destination) according to distance we will calculate amount to pay for this ride
-and how much time will take to reach source to destination.
+User Has entered source and destination within range where service is availble so driver will be connected to user .now we have source to destination distance,we have to calculate sortest dustance and path from source to destination for that i hvae used dikhstra algorithm.after applying dikshtra algorithm we will have sortest distance in km or miter,i have generated a random value 'trafic' if there is value in trafic means there is trafic in path so will add that trafic in distance(to reach source to destination) according to distance we will calculate amount to pay for this ride and how much time will take to reach source to destination.
 
 i will find nearest driver using dikshtra algorithm(i am not calling dikshtra algorithm again when i was calculating nearest path from source to destination, same time i will pck four nodes which is near to source)which is four near drivers
+
+red edge representing sortest path from source to destination location
+ <img src="images/map2.png" width="100%" align="top-left" alt="" title="RNN" />
+ 
+n
 
 <img src="images/input.png" width="100%" align="top-left" alt="" title="RNN" />
 
