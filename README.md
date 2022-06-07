@@ -4,9 +4,7 @@
 
 #### This is a map 
 <img src="images/map1.png" width="100%" align="top-left" alt="" title="RNN" />
-map is a graph as adjacency matrix  each cell(index i,j) has a value which represent distance between source i to destination j,but there may be sortest distance  between i to j which may be lesser then given in cell in graph.
-if any user enter source as (i) and destination as(j) ,it will pic value of matrix[i][j] which is distance from source to destination of user.
-all dignol value is zeor because in dignol allways source=destination(i=j),so if source and destination are equal then allways distance between source to destination will be zero.
+map is a grpah where a node is denoting a location.there is edge between two node denoting path from one node to onother node.a user can enter a node in Pickup Locaiton box and another node in drop location box and algorithm in backend will find sortest distance between source location to destination location using dikshtra algorithm  on backend same map is a graph as adjacency matrix  each cell(index i,j) has a value which represent distance between source i to destination j,but there may be sortest distance  between i to j which may be lesser then given in cell in graph. if any user enter source as (i) and destination as(j) ,it will pic value of matrix[i][j] which is distance from source to destination of user. all dignol value is zeor because in dignol allways source=destination(i=j),so if source and destination are equal then allways distance between source to destination will be zero.
 graph is  symmetric about diagnol (because distance between source to destination) allways will be equal to (distance between destination to source). 
 <img src="images/Map.png" width="100%" align="top-left" alt="" title="RNN" />
 #### here user will enter their source and destination address 
