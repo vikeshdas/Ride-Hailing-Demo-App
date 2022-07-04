@@ -8,6 +8,8 @@ let edge = [[]];
 let v = 10;
 let traffic=[];
 
+let backend_ip="127.0.0.1";
+let backend_port="5000";
 
 if(graph.length===1)
 {
@@ -112,7 +114,7 @@ function colorEdge() {
 */
 function mpa() {
    let xmlHttp = new XMLHttpRequest();
-   xmlHttp.open("POST", 'http://127.0.0.1:8000/map', true);
+   xmlHttp.open("POST", "http://" + backend_ip + ":" + backend_port + "/map", true);
    xmlHttp.onprogress = function () {
 
    }
@@ -181,7 +183,7 @@ function find_cab() {
    formData.append("source", src);
    formData.append("destination", des);
    xmlHttp = new XMLHttpRequest();
-   xmlHttp.open("POST", 'http://127.0.0.1:8000/find-driver', true);
+      xmlHttp.open("POST", "http://" + backend_ip + ":" + backend_port +/find-driver", true);
    xmlHttp.onprogress = function () {
    }
    xmlHttp.onload = function () {
