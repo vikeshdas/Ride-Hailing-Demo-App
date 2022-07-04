@@ -31,6 +31,7 @@ def map():
         return:
             two matrix graph and traffic
     """
+    cabobj=Cab()
     graph,traffic=cabobj.map()
     all_data={'graph':graph,'traffic':traffic}
     encodedNumpyData = json.dumps(all_data, cls=NumpyArrayEncoder)
@@ -46,7 +47,7 @@ def find_driver():
     """
     source=request.form.get("source", type=int)
     destination=request.form.get("destination", type=int)
-
+    cabobj=Cab()
     accept,source_to_cab,source_to_destination,Path,trafic=cabobj.find_cab(source,destination)
     accept=float(accept)
     source_to_cab=float(source_to_cab)
@@ -58,5 +59,5 @@ def find_driver():
 
 
 if __name__ == '__main__':
-    cabobj=Cab()
+    # cabobj=Cab()
     app.run(debug=True)
