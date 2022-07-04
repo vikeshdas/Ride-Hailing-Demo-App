@@ -8,7 +8,8 @@ let edge = [[]];
 let v = 10;
 let traffic=[];
 
-let backend_ip="127.0.0.1";
+// let backend_ip="127.0.0.1";
+let backend_ip="35.239.113.204";
 let backend_port="5000";
 
 if(graph.length===1)
@@ -183,7 +184,7 @@ function find_cab() {
    formData.append("source", src);
    formData.append("destination", des);
    xmlHttp = new XMLHttpRequest();
-      xmlHttp.open("POST", "http://" + backend_ip + ":" + backend_port +/find-driver", true);
+      xmlHttp.open("POST", "http://" + backend_ip + ":" + backend_port + "/find-driver", true);
    xmlHttp.onprogress = function () {
    }
    xmlHttp.onload = function () {
