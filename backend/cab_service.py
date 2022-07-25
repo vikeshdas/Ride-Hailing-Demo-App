@@ -73,7 +73,7 @@ class Cab:
 
     def normalizetraffic(self, trafic):
         """
-        normalize the traffic matrix between zerot to one using 
+        normalize the traffic matrix between zero to one using 
         (trafic[i][j]-min)/(max-min),where max and min is smallest
         and largest value in the matrix 
 
@@ -103,7 +103,7 @@ class Cab:
 
     def find_cab(self,start,end):
         """
-        find the nearest can near source node, and calculate source to destination distance, source to cab distance and shortest path between source to destination using Dijkstra's algorithm
+        find the nearest cab near source node, and calculate source to destination distance, source to cab distance and shortest path between source to destination using Dijkstra's algorithm
 
         Args:
             start:

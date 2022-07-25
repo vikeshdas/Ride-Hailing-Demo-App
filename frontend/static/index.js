@@ -8,9 +8,12 @@ let edge = [[]];
 let v = 10;
 let traffic=[];
 
-// let backend_ip="127.0.0.1";
-let backend_ip="35.239.113.204";
-let backend_port="5000";
+
+// let backend_ip="35.239.113.204";
+// let backend_port="5000";
+
+let backend_ip="127.0.0.1";
+let backend_port="8000";
 
 if(graph.length===1)
 {
