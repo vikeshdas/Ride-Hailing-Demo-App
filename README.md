@@ -39,5 +39,6 @@ Step 1 Create conda environment
 conda create -n myenv python=3.9
 
 Step 2 install requirements.txt file
-      pip install -r requirements.txt
+
+pip install -r requirements.txt
      
