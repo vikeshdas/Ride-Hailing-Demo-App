@@ -66,7 +66,7 @@ Flask API: Flask is a web application framework written in Python. I used flask 
 Front-End
 HTML, CSS, and JavaScript are used to design the front-end. On the front-end a graph is drawn from the back-end's graph using the Highcharts API.All nodes and weights of graphs are taken from the back-end’s graph.User can view nodes(locations) and distance between nodes.
 
-<img src="images/2.png" width="100%" align="top-left" alt=""/>
+<img src="images/2.jpg" width="100%" align="top-left" alt=""/>
 
 Traffic will be represented on the front-end's graph, with three colors: red,green and yellow. The Red edge means there is lots of traffic,green edge  means there is less traffic,yellow means there is traffic but not too high and  not too low.These traffic color is map with normalized traffic matrix on back-end,we have discussed the value of normalized traffic matrix will be between 0 and 1.If traffic value is between 0 and 0.4 then edge color will be green,if traffic value is greater than 0.4 and and less than 0.7 then edge color will be yellow and if traffic value is greater than 0.7 to 1 then edge color will be red.
 
