@@ -22,7 +22,6 @@ i will find nearest driver using dikshtra algorithm(i am not calling dikshtra al
 red edge representing sortest path from source to destination location
  <img src="images/map2.png" width="100%" align="top-left" alt="" title="RNN" />
  
-n
 
 <img src="images/input.png" width="100%" align="top-left" alt="" title="RNN" />
 
@@ -35,3 +34,10 @@ if random value is 1 means driver accepted the ride ,then i will calculate time 
 <img src="images/accept.png" width="100%" align="top-left" />
 
 
+Step 1 Create conda environment 
+ 
+conda create -n myenv python=3.9
+
+Step 2 install requirements.txt file
+      pip install -r requirements.txt
+     
