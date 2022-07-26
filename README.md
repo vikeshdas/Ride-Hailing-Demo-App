@@ -34,11 +34,46 @@ if random value is 1 means driver accepted the ride ,then i will calculate time 
 <img src="images/accept.png" width="100%" align="top-left" />
 
 
-Step 1 Create conda environment 
- 
+### Install conda
+#### step1
+#### download the Miniconda installer for Linux:- 
+https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Windows-x86_64.exe
+
+#### step2
+#### run downloaded file
+bash Miniconda3-latest-Linux-x86_64.sh
+Press Enter to review the license agreement. Then press and hold Enter to scroll
+Enter “yes” to agree to the license agreement.
+
+
+### Create conda environment 
 conda create -n myenv python=3.9
 
-Step 2 install requirements.txt file
-
+### install requirements.txt file
 pip install -r requirements.txt
+     
+##3 get data set using following link
+
+
+## Install google cloud sdk
+
+To install google cloud run follwoing command in terminal
+
+### Step 1
+Install some dependencies
+sudo apt-get install apt-transport-https ca-certificates gnupg
+ 
+ 
+### step 2  
+Add the gcloud CLI distribution URI as a package source. If your distribution supports the signed-by option, run the following command:
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+ 
+### Step 3
+Import the Google Cloud public key. If your distribution's apt-key command supports the --keyring argument, run the following command:
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+ 
+### Step3 
+Update and install the gcloud CLI
+sudo apt-get update && sudo apt-get install google-cloud-cli
+
      
